@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoviePack: Get the best movies with a small fee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="Menu.svg" alt="menu">
+        </div>
+        <div class="tabs">
+            <a href="services.html">Services</a>
+            <a href="products.html">Movies</a>
+            <a href="new.html">New To You</a>
+            <a href="contacts.html">Contact Us</a>
+        </div>
+        <div class="logo">
+            <a href="index.html">
+                <h3>MoviePack</h3>
+                <img src="aperture-outline.svg" alt="logo" srcset="">
+            </a>
+        </div>
+    </header>
+    <section class="homepage">
+        <div class="splash-screen">
+            <h1>MoviePack</h1>
+            <h3>Welcome to MoviePack</h3>
+            <p>Get the latest Sci-Fi, Series, MCU, and Thrillers all in one place</p>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+    const openMenu = document.querySelector(".menu");
+    const menu = document.querySelector(".tabs");
+
+openMenu.addEventListener("click",()=>{
+    menu.classList.toggle("active");
+})
+    </script>
+</body>
+</html>

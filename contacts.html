@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="Menu.svg" alt="menu">
+        </div>
+        <div class="tabs">
+            <a href="services.html">Services</a>
+            <a href="products.html">Movies</a>
+            <a href="new.html">New To You</a>
+            <a href="contacts.html">Contact Us</a>
+        </div>
+        <div class="logo">
+            <a href="index.html">
+                <h3>MoviePack</h3>
+                <img src="aperture-outline.svg" alt="logo" srcset="">
+            </a>
+        </div>
+    </header>
+    <div class="contacts">
+        <div class="title">
+            <h1>Send Us a Message</h1>
+        </div>
+        <div class="form">
+            <input type="text" name="name" id="name" placeholder="Name">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <button type="submit">Send</button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        const openMenu = document.querySelector(".menu");
+        const menu = document.querySelector(".tabs");
+    
+    openMenu.addEventListener("click",()=>{
+        menu.classList.toggle("active");
+    })
+        </script>
+</body>
+</html>

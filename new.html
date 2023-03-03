@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New To You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="Menu.svg" alt="menu">
+        </div>
+        <div class="tabs">
+            <a href="services.html">Services</a>
+            <a href="products.html">Movies</a>
+            <a href="new.html">New To You</a>
+            <a href="contacts.html">Contact Us</a>
+        </div>
+        <div class="logo">
+            <a href="index.html">
+                <h3>MoviePack</h3>
+                <img src="aperture-outline.svg" alt="logo" srcset="">
+            </a>
+        </div>
+    </header>
+    <section class="new-to-you">
+            <div class="sect-title">
+                <h1>New to You</h1>
+            </div>
+            <div class="series-items">
+                <div class="series-item">
+                    <div class="series-image">
+                        <img src="Will-Trent.jpg" alt="Will-Trent">
+                    </div>
+                    <div class="series-title-buttons">
+                        <div class="series-title">
+                            <h3>Will Trent</h3>
+                        </div>
+                        <div class="series-buttons">
+                            <a href="#">Buy</a>
+                            <a href="">Rent</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="series-item">
+                    <div class="series-image">
+                        <img src="discovery-witches.jpg" alt="discovery-witches">
+                    </div>
+                    <div class="series-title-buttons">
+                        <div class="series-title">
+                            <h3>Discovery Witches</h3>
+                        </div>
+                        <div class="series-buttons">
+                            <a href="#">Buy</a>
+                            <a href="">Rent</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="series-item">
+                    <div class="series-image">
+                        <img src="bestseller.webp" alt="bestseller">
+                    </div>
+                    <div class="series-title-buttons">
+                        <div class="series-title">
+                            <h3> Best Seller</h3>
+                        </div>
+                        <div class="series-buttons">
+                            <a href="#">Buy</a>
+                            <a href="">Rent</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="series-item">
+                    <div class="series-image">
+                        <img src="obx-3.jpg" alt="obx-3">
+                    </div>
+                    <div class="series-title-buttons">
+                        <div class="series-title">
+                            <h3>Outer Banks</h3>
+                        </div>
+                        <div class="series-buttons">
+                            <a href="#">Buy</a>
+                            <a href="">Rent</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script type="text/javascript">
+        const openMenu = document.querySelector(".menu");
+        const menu = document.querySelector(".tabs");
+    
+    openMenu.addEventListener("click",()=>{
+        menu.classList.toggle("active");
+    })
+        </script>
+</body>
+</html>
